@@ -1,76 +1,176 @@
-<div align="center">
+# Contributing to Making Use of AI
 
-<!-- HERO MODULE -->
-[![Stream](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=42&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&lines=CONTRIBUTION_PROTOCOLS;JOIN_THE_COLLECTIVE;SYSTEM_ACCESS_GRANTED)](https://git.io/typing-svg)
+Thank you for considering a contribution to this repository. Your knowledge helps the entire community work more effectively with AI.
 
-<br><br>
+---
 
-<code>
-<b>[ SYSTEM_NOTICE ]</b><br>
-"Collaboration is the engine of innovation.<br>
-Review the following protocols before initiating data transfer."
-</code>
+## What We're Looking For
 
-<br><br>
+### High-Value Contributions
 
-<!-- WORKFLOW DIAGRAM -->
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0d1117', 'primaryTextColor': '#39ff14', 'primaryBorderColor': '#ff00ff', 'lineColor': '#39ff14', 'secondaryColor': '#0d1117', 'tertiaryColor': '#0d1117'}}}%%
-graph LR
-    START((START)) -->|Fork| A[REPOSITORY]
-    A -->|Branch| B{DEVELOP}
-    B -->|Commit| C[PUSH_CODE]
-    C -->|PR| D[CODE_REVIEW]
-    D -->|Merge| END((MAIN))
-    style START fill:#0d1117,stroke:#39ff14,stroke-width:2px
-    style A fill:#0d1117,stroke:#ff00ff,stroke-width:2px
-    style B fill:#0d1117,stroke:#39ff14,stroke-width:2px
-    style C fill:#0d1117,stroke:#ff00ff,stroke-width:2px
-    style D fill:#0d1117,stroke:#39ff14,stroke-width:2px
-    style END fill:#0d1117,stroke:#ff00ff,stroke-width:2px
+**Prompts that work:**
+- Tested across multiple scenarios
+- Explained clearly (why it works, not just what it does)
+- Includes example inputs/outputs
+- Documents edge cases and limitations
+
+**Model insights:**
+- Observed behaviors and quirks
+- Effective strategies for specific models
+- Comparisons backed by experience
+- Tips that aren't in official documentation
+
+**Agent workflows:**
+- Patterns that increase productivity
+- Configuration recommendations
+- Integration approaches
+- Troubleshooting guides
+
+**Corrections and updates:**
+- Outdated information (models, pricing, capabilities)
+- Errors in examples
+- Broken links
+- Unclear explanations
+
+---
+
+## Contribution Process
+
+### For Small Changes
+
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request with a clear description
+
+### For Larger Contributions
+
+1. Open an issue first to discuss the change
+2. Get feedback on approach before investing significant time
+3. Fork, implement, and submit PR
+
+### What to Include in PRs
+
+- Clear description of what changed and why
+- For new content: who this helps and how
+- For corrections: what was wrong and how you verified the fix
+- Any relevant links or references
+
+---
+
+## Content Guidelines
+
+### Writing Style
+
+**Be direct:**
+- Lead with the point
+- Skip unnecessary preambles
+- Respect readers' time
+
+**Be practical:**
+- Focus on what works
+- Include examples
+- Connect to real use cases
+
+**Be honest:**
+- Acknowledge limitations
+- Note when something is uncertain
+- Don't oversell capabilities
+
+### Formatting Standards
+
+**Markdown:**
+- Use proper heading hierarchy (# for title, ## for sections)
+- Code blocks with language specified
+- Tables for comparisons
+- Consistent list formatting
+
+**Prompts:**
+- Use code blocks for prompt text
+- Include placeholder indicators: `[your code here]`
+- Show expected output format when relevant
+
+**Code examples:**
+- Should be runnable
+- Include necessary imports
+- Add comments for non-obvious parts
+
+---
+
+## Quality Standards
+
+### For Prompts
+
+Before submitting a prompt, verify:
+
+- [ ] Works consistently (tested 5+ times)
+- [ ] Documented when and why to use it
+- [ ] Includes example input and output
+- [ ] Notes any model-specific considerations
+- [ ] Explains the reasoning behind the structure
+
+### For Documentation
+
+- [ ] Accurate and current
+- [ ] Clear to someone unfamiliar with the topic
+- [ ] Properly linked to related content
+- [ ] Follows existing formatting patterns
+
+### For Code
+
+- [ ] Works as shown
+- [ ] Includes error handling where appropriate
+- [ ] Uses current API versions
+- [ ] Has comments explaining non-obvious parts
+
+---
+
+## Repository Structure
+
+```
+making-use-of-ai/
+├── guides/          # Conceptual foundations and methodologies
+├── models/          # Model-specific documentation
+│   ├── claude/
+│   ├── gpt/
+│   ├── gemini/
+│   ├── llama/
+│   └── local-models/
+├── agents/          # AI assistant guides
+│   ├── cursor/
+│   └── aider/
+├── prompts/         # Prompt library
+│   ├── coding/
+│   ├── writing/
+│   ├── analysis/
+│   └── system-prompts/
+├── references/      # Quick lookups
+└── resources/       # Tools, communities, learning paths
 ```
 
-<br><br>
+Place new content in the appropriate directory. If unsure, ask in your PR.
 
-<table width="100%" style="border: 0; border-collapse: collapse;">
-    <tr>
-        <td align="center" width="50%" style="border: 0; padding-bottom: 20px; vertical-align: top;">
-            <code><b>[ PROTOCOL_01 :: ISSUES ]</b></code><br><br>
-            Before initiating a fix, check existing logs.<br>
-            Use the <b>Bug Report</b> template for anomalies.<br>
-            Use the <b>Feature Request</b> for upgrades.
-        </td>
-        <td align="center" width="50%" style="border: 0; padding-bottom: 20px; vertical-align: top;">
-            <code><b>[ PROTOCOL_02 :: PULL_REQUESTS ]</b></code><br><br>
-            Fork the system.<br>
-            Create a specific branch: <code>feat/upgrade</code>.<br>
-            Ensure all tests pass: <code>PASS</code>.<br>
-            Link relevant issue IDs.
-        </td>
-    </tr>
-    <tr>
-        <td align="center" width="50%" style="border: 0; vertical-align: top;">
-            <code><b>[ PROTOCOL_03 :: CODE_STYLE ]</b></code><br><br>
-            Maintain readability.<br>
-            Comment complex logic.<br>
-            Format code before push.<br>
-            Respect the linter.
-        </td>
-        <td align="center" width="50%" style="border: 0; vertical-align: top;">
-            <code><b>[ PROTOCOL_04 :: CONDUCT ]</b></code><br><br>
-            Be respectful to other units.<br>
-            Constructive feedback only.<br>
-            Zero tolerance for toxicity.<br>
-            Collaborate to elevate.
-        </td>
-    </tr>
-</table>
+---
 
-<br><br>
+## What We Don't Accept
 
-<!-- FOOTER -->
-<code>
-[ PROTOCOL_STATUS: ACTIVE ] • [ <a href="https://github.com/Querulantenkind">INITIATE_PULL_REQUEST</a> ] • [ EOF ]
-</code>
+- Content that's primarily marketing
+- Prompts without explanation or testing
+- Outdated information without verification
+- Copies of official documentation (link instead)
+- Low-effort contributions
 
-</div>
+---
+
+## Recognition
+
+Contributors are valued. Significant contributions may be acknowledged in the README or relevant documents (with your permission).
+
+---
+
+## Questions?
+
+Open an issue with the "question" label. We're happy to help guide contributions.
+
+---
+
+*Quality over quantity. One well-documented prompt is worth more than ten unexplained ones.*

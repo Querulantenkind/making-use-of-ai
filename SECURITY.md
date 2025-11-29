@@ -1,48 +1,88 @@
-<div align="center">
+# Security
 
-<!-- HERO MODULE -->
-[![Stream](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=42&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&lines=SECURITY_PROTOCOLS;VULNERABILITY_DETECTION;ENCRYPTED_CHANNELS_OPEN)](https://git.io/typing-svg)
+## Responsible Disclosure for Documentation
 
-<br><br>
+This repository contains documentation, guides, and prompts for working with AI. While it doesn't contain executable code with traditional security vulnerabilities, there are still content-related concerns we take seriously.
 
-<code>
-<b>[ SECURITY_POLICY ]</b><br>
-"Please report vulnerabilities through secure channels.<br>
-Do not disclose public issues for security flaws."
-</code>
+---
 
-<br><br>
+## What to Report
 
-<!-- VERSIONS TABLE -->
-<code><b>[ SUPPORTED_VERSIONS ]</b></code><br><br>
-| Version | Status | Security Updates |
-| :---: | :---: | :---: |
-| `v2.0.x` | <img src="https://img.shields.io/badge/-ACTIVE-39FF14?style=flat-square" /> | ✅ |
-| `v1.5.x` | <img src="https://img.shields.io/badge/-MAINTENANCE-FFA500?style=flat-square" /> | ⚠️ |
-| `< v1.5` | <img src="https://img.shields.io/badge/-DEPRECATED-FF0055?style=flat-square" /> | ❌ |
+### Content Security Issues
 
-<br><br>
+**Report if you find:**
+- Prompts that could be used to jailbreak or manipulate AI systems maliciously
+- Examples that inadvertently expose sensitive patterns
+- Code snippets with security vulnerabilities
+- Information that could enable harmful uses of AI
+- Privacy concerns in examples or documentation
 
-<!-- REPORTING FLOW -->
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0d1117', 'primaryTextColor': '#39ff14', 'primaryBorderColor': '#ff00ff', 'lineColor': '#39ff14', 'secondaryColor': '#0d1117', 'tertiaryColor': '#0d1117'}}}%%
-graph LR
-    A((DISCOVERY)) -->|Email| B[PRIVATE_REPORT]
-    B -->|Verify| C{VALIDATE}
-    C -->|Confirmed| D[PATCH_DEV]
-    D -->|Release| E[SECURITY_ADVISORY]
-    style A fill:#0d1117,stroke:#39ff14,stroke-width:2px
-    style B fill:#0d1117,stroke:#ff00ff,stroke-width:2px
-    style C fill:#0d1117,stroke:#39ff14,stroke-width:2px
-    style E fill:#0d1117,stroke:#ff00ff,stroke-width:2px
-```
+### Accuracy Issues
 
-<br><br>
+**Also report:**
+- Dangerously incorrect technical information
+- Outdated security recommendations
+- Misleading guidance that could cause harm
 
-<code>
-[ PGP_FINGERPRINT: [YOUR_PGP_KEY_HERE] ] • [ REPORT: [YOUR_EMAIL_HERE] ]
-</code>
+---
 
-<!-- TEMPLATE_NOTE: Replace [YOUR_EMAIL_HERE] with your security contact email and [YOUR_PGP_KEY_HERE] with your PGP fingerprint -->
+## How to Report
 
-</div>
+### For Non-Sensitive Issues
+
+Open a regular GitHub issue with the "security" label.
+
+### For Sensitive Issues
+
+If the issue is sensitive and shouldn't be publicly disclosed:
+
+1. **Open a private security advisory** via GitHub's Security tab
+2. **Or contact maintainers directly** through GitHub
+
+Include:
+- Location of the problematic content
+- Description of the concern
+- Potential impact
+- Suggested fix (if you have one)
+
+---
+
+## Response Process
+
+1. **Acknowledgment** - We'll acknowledge receipt within 48 hours
+2. **Assessment** - We'll evaluate the severity and validity
+3. **Action** - Problematic content will be removed or corrected promptly
+4. **Follow-up** - We'll notify you when the issue is resolved
+
+---
+
+## Safe Harbor
+
+We will not take legal action against anyone who:
+- Reports issues in good faith
+- Follows this disclosure process
+- Does not exploit issues for malicious purposes
+
+---
+
+## Scope
+
+This policy covers:
+- All documentation in this repository
+- Example prompts and code snippets
+- External resources we link to (please report broken or malicious links)
+
+---
+
+## General Security Guidance
+
+When using AI systems based on information from this repository:
+
+- **Verify outputs** - AI can produce incorrect or harmful content
+- **Protect credentials** - Never include API keys in prompts or context
+- **Consider privacy** - Be mindful of sensitive data in AI interactions
+- **Stay updated** - AI security best practices evolve; check official sources
+
+---
+
+*We appreciate responsible disclosure. It helps keep this resource safe and valuable for everyone.*

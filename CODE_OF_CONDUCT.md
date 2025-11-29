@@ -1,64 +1,82 @@
-<div align="center">
+# Code of Conduct
 
-<!-- HERO MODULE -->
-[![Stream](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=42&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&lines=COMMUNITY_STANDARDS;MAINTAIN_SYSTEM_INTEGRITY;SAFE_ENVIRONMENT_ACTIVE)](https://git.io/typing-svg)
+## Our Commitment
 
-<br><br>
+This repository exists to help people work more effectively with AI. We are committed to maintaining an environment where everyone can contribute, learn, and grow regardless of experience level, background, or perspective.
 
-<code>
-<b>[ PRIME_DIRECTIVE ]</b><br>
-"We are committed to making participation in this project<br>
-a harassment-free experience for everyone."
-</code>
+---
 
-<br><br>
+## Expected Behavior
 
-<!-- STANDARDS GRID -->
-<table width="100%" style="border: 0; border-collapse: collapse;">
-    <tr>
-        <td align="center" width="50%" style="border: 0; padding-bottom: 20px; vertical-align: top;">
-            <code><b>[ POSITIVE_BEHAVIOR ]</b></code><br><br>
-            <img src="https://img.shields.io/badge/STATUS-ACCEPTED-39FF14?style=for-the-badge&labelColor=0d1117" /><br><br>
-            Using welcoming and inclusive language.<br>
-            Respecting differing viewpoints.<br>
-            Gracefully accepting constructive criticism.<br>
-            Focusing on what is best for the community.
-        </td>
-        <td align="center" width="50%" style="border: 0; padding-bottom: 20px; vertical-align: top;">
-            <code><b>[ UNACCEPTABLE_BEHAVIOR ]</b></code><br><br>
-            <img src="https://img.shields.io/badge/STATUS-DENIED-FF0055?style=for-the-badge&labelColor=0d1117" /><br><br>
-            Trolling, insulting/derogatory comments.<br>
-            Public or private harassment.<br>
-            Publishing others' private information.<br>
-            Conduct which could reasonably be considered inappropriate.
-        </td>
-    </tr>
-</table>
+**Be constructive:**
+- Share knowledge generously
+- Provide honest, helpful feedback
+- Assume good intentions in others' contributions
+- Focus on improving content, not criticizing contributors
 
-<br><br>
+**Be respectful:**
+- Welcome newcomers and help them contribute
+- Respect differing viewpoints and experiences
+- Accept constructive criticism gracefully
+- Use inclusive language
 
-<!-- ENFORCEMENT FLOW -->
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0d1117', 'primaryTextColor': '#39ff14', 'primaryBorderColor': '#ff00ff', 'lineColor': '#39ff14', 'secondaryColor': '#0d1117', 'tertiaryColor': '#0d1117'}}}%%
-graph TD
-    A[REPORT_FILED] -->|Review| B{INVESTIGATION}
-    B -->|Violation?| C[YES]
-    B -->|No| D[DISMISS]
-    C -->|Minor| E[WARNING]
-    C -->|Major| F[BAN_USER]
-    style A fill:#0d1117,stroke:#39ff14,stroke-width:2px
-    style B fill:#0d1117,stroke:#ff00ff,stroke-width:2px
-    style C fill:#0d1117,stroke:#ff0055,stroke-width:2px
-    style E fill:#0d1117,stroke:#ff00ff,stroke-width:2px
-    style F fill:#0d1117,stroke:#ff0055,stroke-width:2px
-```
+**Be practical:**
+- Focus on what's useful and actionable
+- Back claims with evidence or experience
+- Acknowledge uncertainty honestly
+- Update outdated information when you find it
 
-<br>
+---
 
-<code>
-[ ENFORCEMENT_CONTACT: [YOUR_EMAIL_HERE] ] • [ SYSTEM_PROTECTED ]
-</code>
+## Unacceptable Behavior
 
-<!-- TEMPLATE_NOTE: Replace [YOUR_EMAIL_HERE] with your actual contact email -->
+- Harassment, trolling, or personal attacks
+- Discriminatory language or behavior
+- Publishing others' private information
+- Deliberate misinformation or spam
+- Dismissive or unconstructive criticism
+- Any conduct inappropriate for a professional setting
 
-</div>
+---
+
+## Scope
+
+This code of conduct applies to all repository spaces including:
+- Issues and pull requests
+- Discussions
+- Comments and reviews
+- Any community spaces associated with this project
+
+---
+
+## Enforcement
+
+Violations may result in:
+1. **Correction** - A private message explaining the issue
+2. **Warning** - A formal warning about behavior
+3. **Temporary ban** - Temporary inability to contribute
+4. **Permanent ban** - Permanent removal from the project
+
+Decisions are made at the discretion of project maintainers based on the severity and context of the violation.
+
+---
+
+## Reporting
+
+If you experience or witness unacceptable behavior:
+
+1. **For immediate issues:** Comment or flag the content
+2. **For private reports:** Open a private discussion or contact maintainers directly
+3. **Include:** What happened, when, and any relevant context
+
+All reports will be reviewed and handled with discretion.
+
+---
+
+## Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
+
+---
+
+*The goal is a productive, welcoming space for sharing AI knowledge. We trust contributors to embody these values.*
