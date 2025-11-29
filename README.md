@@ -39,7 +39,9 @@ making-use-of-ai/
 ├── models/          # Deep dives into specific AI models
 ├── agents/          # AI coding assistants and autonomous systems
 ├── prompts/         # Battle-tested prompt templates
-├── references/      # Quick lookups, comparisons, and specifications
+├── use-cases/       # Real-world scenario walkthroughs
+├── comparisons/     # Head-to-head tool and model analysis
+├── references/      # Quick lookups and specifications
 └── resources/       # Tools, communities, and learning pathways
 ```
 
@@ -53,6 +55,8 @@ making-use-of-ai/
 | **[Models](models/)** | Understand the strengths, limitations, and optimal use patterns for each major AI model | [Model Overview](models/README.md) |
 | **[Agents](agents/)** | Configure and leverage AI coding assistants for maximum productivity | [Agent Overview](agents/README.md) |
 | **[Prompts](prompts/)** | Access a curated library of prompts organized by domain and purpose | [Prompt Library](prompts/README.md) |
+| **[Use Cases](use-cases/)** | Follow complete walkthroughs of real-world AI-assisted scenarios | [Use Cases Index](use-cases/README.md) |
+| **[Comparisons](comparisons/)** | Make informed decisions with head-to-head tool and model analysis | [Comparison Guide](comparisons/README.md) |
 | **[References](references/)** | Quick access to context limits, pricing, terminology, and API patterns | [Reference Index](references/README.md) |
 | **[Resources](resources/)** | Discover tools, communities, and structured learning paths | [Resource Hub](resources/README.md) |
 
@@ -150,7 +154,7 @@ Use this knowledge freely. Build upon it. Share it. The goal is collective advan
 
 <div align="center">
 
-**[Guides](guides/) | [Models](models/) | [Agents](agents/) | [Prompts](prompts/) | [References](references/) | [Resources](resources/)**
+**[Guides](guides/) | [Models](models/) | [Agents](agents/) | [Prompts](prompts/) | [Use Cases](use-cases/) | [Comparisons](comparisons/) | [References](references/) | [Resources](resources/)**
 
 *Knowledge compounds. Start somewhere. Keep learning.*
 
