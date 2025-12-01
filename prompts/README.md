@@ -10,9 +10,9 @@ This section contains ready-to-use prompts organized by domain. Each prompt has 
 
 | Category | Contents |
 |----------|----------|
-| [Coding](coding/) | Development, debugging, review, refactoring |
-| [Writing](writing/) | Technical documentation, communication, content |
-| [Analysis](analysis/) | Data analysis, research, decision support |
+| [Coding](coding/) | Development, debugging, review, refactoring, testing |
+| [Writing](writing/) | Technical documentation, communication |
+| [Analysis](analysis/) | Data analysis, research, decision making |
 | [System Prompts](system-prompts/) | Reusable system prompt templates |
 
 ---
@@ -78,7 +78,7 @@ Every prompt in this library meets these standards:
 | Review code | [Code Review](coding/code-review.md) |
 | Improve code | [Refactoring](coding/refactoring.md) |
 | Write tests | [Testing](coding/testing.md) |
-| Write docs | [Technical Docs](writing/technical-docs.md) |
+| Write docs | [Technical Documentation](writing/technical-docs.md) |
 
 ### For Analysis
 
